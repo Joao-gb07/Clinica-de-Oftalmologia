@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    text-decoration: none;
+    
+}
+
+body {
+    background-color: #f5fffd;
+}
+
+img {
+    width: 100%;
+}
+
+header img {
+    width: 100vw;
+}
+
+nav {
+    color: #fff;
+    margin-right: 10px;
+    text-align: right;
+    letter-spacing: 2px;
+}
+
+nav a:hover {
+    color: rgb(68, 202, 202);
+    padding-bottom: 0.5rem;
+    border-bottom: 0.1rem solid #fff
+}
+
+#pag-sobre h2 {
+    font-family: 'Lucida Sans' sans-serif;
+    font-size: 35px;
+}
+
+#pag-sobre p{
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.texto-principal {
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#pag-servicos h2{
+    font-family: 'Lucida Sans' sans-serif;
+    font-size: 35px;
+}
+
+#pag-servicos p {
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    
+}
+
+.conteiner {
+    display: flex;
+    gap: 2em;
+}
+
+.card {
+    width: 25%;
+    background-color: #FFF;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px #777;
+    text-align: center;
+}
+
+.img-card {
+    border-radius: 15px 15px 0 0;
+    width: 100%;
+    cursor: pointer;
+    
+}
+
+.card-texto {
+    padding: 1em;
+}
+
+.card p {
+    text-align: center;
+}
+
+#pag-contato h2 {
+    font-family: 'Lucida Sans' sans-serif;
+    font-size: 35px;
+    text-align: center;
+}
+
+#pag-contato p {
+    text-align: center;
+}
+
+form {
+    width: 400px;
+    margin: 0 auto;
+    
+}
+
+input, select, textarea {
+    width: 100%;
+    height: 20px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    box-sizing: border-box;
+    border: 1px solid #c4c4c4;
+    color: #777;
+}
+
+label, fieldset, input, textarea{
+    font-family: "Familjen Grotesk", sans-serif;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    width: 11px;
+    height: 11px;
+    margin-left: 50px;
+}
+
+#botoes-form {
+    display: flex;
+}
+
+input[type="submit"] {
+    margin: 20px;
+    background-color: #007054;
+    color: #FFF;
+    border: 0;
+    border-radius: 15px;
+}
+
+input[type="reset"]{
+    margin: 20px;
+    background-color: #007054;
+    color: #FFF;
+    border: 0;
+    border-radius: 15px;
+}
+
+#caixa-info {
+    align-items: center;
+}
+
+footer p {
+    color: black;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 700;
+    text-decoration: none;
+}

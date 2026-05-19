@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>VisionMedic</title>
+</head>
+
+<body>
+    <nav>
+        <a class="a-menu" href="#pag-sobre">SOBRE</a>
+        <a href="#pag-servicos">MÉDICOS</a>
+        <a href="#pag-contato">CONTATO</a>
+    </nav>
+
+    <header>
+        <img src="img/LogoPrincipla.png" alt="Clinica Oftalmologia VisionMedic">
+    </header>
+
+    
+
+    <main>
+        <section id="pag-sobre">
+            <h2>Sobre</h2>
+            <p> A VisionMedic nasceu da crença de que enxergar bem é mais do que uma necessidade — é
+                qualidade de vida.
+                Somos uma clínica oftalmológica dedicada a oferecer cuidado visual completo,
+                com atendimento humanizado e tecnologia
+                de ponta para cada paciente que nos procura. </p>
+
+            <p>
+                Com mais de 12 anos de experiência, nossa equipe de especialistas atua desde consultas de rotina até
+                procedimentos mais complexos,
+                sempre com o compromisso de entregar diagnósticos precisos e tratamentos eficazes.
+                Acreditamos que cada olhar conta uma história, e é nossa missão preservá-lo com excelência.</p>
+
+            <p>Na VisionMedic, você encontra um ambiente acolhedor, profissionais qualificados e um
+                acompanhamento contínuo
+                pensado para a sua saúde ocular em todas as fases da vida.</p>
+        </section>
+    </main>
+
+    <div class="texto-principal">
+        <p>Sua visão é a nossa prioridade.</p>
+    </div>
+
+    <section id="pag-servicos">
+        <h2>Médicos</h2>
+
+
+        <p>Nossa equipe é formada por oftalmologistas experientes e dedicados,
+            prontos para oferecer o melhor atendimento em cada especialidade.
+            Conheça os profissionais que cuidam da sua visão com excelência.</p>
+
+        <div class="conteiner">
+            <div class="card">
+                <img class="img-card" src="img/01.png"
+                    alt="Dr. Carlos Mendes - Especialista em cirurgia refrativa e catarata">
+                <div class="card-texto">
+                    <h3>Dr. Carlos Mendes</h3>
+                    <p>Especialista em cirurgia refrativa e catarata, com mais de 15 anos de atuação.
+                        Formado pela USP com residência no Hospital das Clínicas. </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="img-card" src="img/02.png" alt="Dr. Juan Figueiredo - Especialista em retina e vítreo">
+                <div class="card-texto">
+                    <h3>Dr. Juan Figueiredo</h3>
+                    <p>Especialista em retina e vítreo.
+                        Referência no tratamento de degeneração macular e retinopatia diabética.
+                        Pós-graduada pela UNIFESP.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="img-card" src="img/03.png"
+                    alt="Dr. Rafael Souza - Especialista em glaucoma e doenças do nervo óptico.">
+                <div class="card-texto">
+                    <h3>Dr. Rafeal Souza</h3>
+                    <p>Especialista em glaucoma e doenças do nervo óptico.
+                        Atua com foco em diagnóstico precoce e acompanhamento de longo prazo.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="img/04.png" alt="Dr. Juliano Costa - Especialista em oftalmologia pediátrica e estrabismo.">
+                <div class="card-texto">
+                    <h3>Dr. Juliano Costa</h3>
+                    <p>Especialista em oftalmologia pediátrica e estrabismo.
+                        Atendimento dedicado a crianças e adolescentes com abordagem cuidadosa e acolhedora.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pag-contato">
+        <h2>Contato</h2>
+
+        <p> Marque sua consulta conosco: Abaixo </p>
+
+        <form>
+            <div class="caixa-info">
+                    <label for="nome"> <b>Nome: </b></label><br />
+                    <input id="nome" type="text" name="nome_completo" size="40" placeholder="Nome Completo" 
+                     autofocus/>
+                        
+
+                    <br /><br />
+                    <label for="email"> <b>E-mail:</b></label><br />
+                    <input id="email" type="email" name="email" size="40" placeholder="nomeusuario@gmail.com">
+                    <br /><br />
+
+                <label for="servico"><b>Serviço:</b></label><br>
+                <select id="servico" name="servico">
+                    <option value="">Selecione</option>
+                    <option value="consulta">Consulta Oftalmológica</option>
+                    <option value="exame_visao">Exame de Vista</option>
+                    <option value="oculos">Prescrição de Óculos</option>
+                    <option value="lentes">Adaptação de Lentes de Contato</option>
+                    <option value="glaucoma">Avaliação de Glaucoma</option>
+                    <option value="catarata">Avaliação de Catarata</option>
+                    <option value="retina">Exame de Retina</option>
+                    <option value="outros">Outros</option>
+                </select>
+
+
+                <br /><br />
+                <label for="quantidade"><b>Quantidade:</b></label><br>
+                <input id="quantidade" type="number" name="quantidade" min="1" max="20" step="1"
+                    placeholder="Somente números">
+                <br><br>
+
+                <fieldset>
+                    <legend>
+                            Forma:
+                    </legend>
+                    <input type="radio" id="cartao" name="forma" value="cartao" checked>
+                    <label for="cartao">Cartão</label><br> <input type="radio" id="dinheiro" name="forma" value="dinheiro">
+                    <label for="dinheiro">Dinheiro</label>
+                </fieldset> <br>
+                <label for="comentarios">
+                    <b>
+                        Comentários:
+                    </b>
+                </label><br>
+                <textarea id="comentarios" name="comentarios"> </textarea>
+                <br><br>
+
+                <br /><br />
+                <div id="botoes-form">
+                    <input type="submit" name="botao-agendar" />
+                    <input type="reset" name="botao-cancelar" />
+                </div>
+            </div>
+        </form>
+    </section>
+    <footer>
+        <p>Desenvolvido por <a href="">João Victor R. de Andrade</a> - 2026</p>
+    </footer>
+
+</body>
+
+</html>
